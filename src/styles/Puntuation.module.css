@@ -1,0 +1,26 @@
+.container_puntuation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.puntuation {
+    background-color: hsl(213, 19%, 18%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-in;
+    border: none;
+}
+.puntuation:hover {
+ background-color: hsl(217, 12%, 63%);
+ color: white;
+ cursor: pointer;
+}
+

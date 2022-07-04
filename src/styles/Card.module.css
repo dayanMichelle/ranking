@@ -1,0 +1,88 @@
+.star {
+    display: flex;
+    align-items: center;
+    background-color:   hsl(213, 19%, 18%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.star img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+ /* form */
+.card {
+    background-color: hsl(212, 42%, 13%);
+    min-width:250px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 30px;
+}
+.card__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card__form h3{
+    color: white;
+    font-size: 2rem;
+    margin:0;
+    font-weight: bold;
+}
+.card__form_parrafo {
+    color:hsl(216, 12%, 54%) ;
+    font-size: 1.2rem;
+}
+.card__form_button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in;
+}
+.card__form_button:hover {
+ background-color: white;
+ color: hsl(25, 97%, 53%);
+ cursor: pointer;
+}
+
+/* Enviado exitosamente*/
+.card_send {
+    background-color: hsl(212, 42%, 13%);
+    min-width:250px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.span {
+    background-color: rgba(124, 135, 152,0.5) ;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+}
+.title {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+    font-weight: 600;
+}
+.card__parrafo{
+    color:hsl(216, 12%, 54%) ;
+    font-size: 1.2rem;
+    text-align: center;
+}
